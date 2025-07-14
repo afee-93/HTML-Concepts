@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Classwork</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Name: </label>
+        <input type="text"  name="name"  id="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob"required><br><br>
+
+        <label for="appointment">appointment Date & Time</label>
+        <input type="datetime-local" name="appointment" id="appointment"required><br><br>
+
+        <label for="billing-month">Billing Month: </label>
+        <input type="Month" name="billing-month" id="Month"required><br><br>
+
+        <label for="week-number">Select Week: </label>
+        <input type="week" name="week-number" id="week-number"required><br><br>
+
+        <p><strong>Gender: </strong></p>
+        <input type="radio" id="female" name="gender">
+        <label for="female" id="female" name="gender" >Female: </label>
+
+        <input type="radio" id="male" name="gender">
+        <label for="male" id="male" name="gender" >Male: </label>
+
+        <p><strong>Hobbies: </strong></p>
+        <input type="checkbox" id="reading" name="hobbies[]" value="reading">
+        <label for="reading">Writing</label>
+
+        <input type="checkbox" id="travel" name="hobbies[]" value="Travel">
+        <label for="Travel">Travel</label>
+
+        <input type="checkbox" id="Movies" name="hobbies[]" value="Movies">
+        <label for="Movies">Movies</label>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
